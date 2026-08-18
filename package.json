@@ -1,12 +1,12 @@
 {
-  "name": "minecraft-pregen-bot",
+  "name": "cracked-afk-bot",
   "version": "1.0.0",
+  "description": "Free cloud AFK bot for modern cracked servers",
   "main": "index.js",
-  "dependencies": {
-    "express": "^4.19.2",
-    "mineflayer": "^4.23.0"
-  },
   "scripts": {
     "start": "node index.js"
+  },
+  "dependencies": {
+    "mineflayer": "^4.24.0"
   }
 }
