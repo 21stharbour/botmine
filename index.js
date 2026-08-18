@@ -2,10 +2,10 @@ const mineflayer = require('mineflayer')
 
 // --- CONFIGURATION ---
 const BOT_CONFIG = {
-  host: 'YOUR_SERVER_IP_HERE',     // Replace with your MCServerHost server IP
+  host: 'htsecer971.mcsh.io',     // Replace with your MCServerHost server IP
   port: 25565,                      // Replace with your custom port if you have one
   username: 'PregenCloudBot',      // The cracked username for your bot
-  version: '1.20.1'                // Replace with your exact Fabric server version
+  version: '1.26.2'                // Replace with your exact Fabric server version
 }
 // ---------------------
 
