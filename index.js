@@ -1,5 +1,5 @@
 const mineflayer = require('mineflayer');
-const fabricPlugin = require('mineflayer-fabric')
+const fabricPlugin = require('mineflayer-fabric');
 const http = require('http');
 
 // 1. CHOOSE YOUR SERVER SETTINGS
