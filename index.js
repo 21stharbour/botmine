@@ -3,7 +3,7 @@ const http = require('http');
 
 // 1. CHOOSE YOUR SERVER SETTINGS
 const botOptions = {
-    host: 'YOUR_SERVER_IP_HERE',      // Replace with your server IP address
+    host: 'htsecer971.mcsh.io',      // Replace with your server IP address
     port: 25565,                      // Replace with your port if different
     username: 'CloudAFKBot',          // The in-game username for your bot
     auth: 'offline',                  // CRACKED MODE (No Microsoft/Mojang purchase check)
