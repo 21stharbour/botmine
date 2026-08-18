@@ -1,5 +1,4 @@
 const mineflayer = require('mineflayer');
-const fabricPlugin = require('mineflayer-fabric');
 const http = require('http');
 
 // 1. CHOOSE YOUR SERVER SETTINGS
@@ -16,7 +15,6 @@ let bot;
 function createBotInstance() {
     console.log(`Connecting bot to ${botOptions.host}...`);
     bot = mineflayer.createBot(botOptions);
-    bot.loadPlugin(fabricPlugin);
 
     // Anti-AFK Routine (Jumps every 30 seconds to bypass idle timeout)
     bot.on('spawn', () => {
